@@ -124,7 +124,7 @@ function weather(name){
         img.innerHTML = `<img src="./Sunny.png" alt = "Sorry Coulndt find the image" style = "width: 250px;"/>`
     }
     else if (descValue == "broken clouds" || descValue == "scattered clouds" || descValue == "overcast clouds") {
-        img.innerHTML = `<img src="./Cloudy.png" alt = "Sorry Coulndt find the image" style = "width: 250px;"/>`
+        img.innerHTML = `<img src="./cloudy.png" alt = "Sorry Coulndt find the image" style = "width: 250px;"/>`
     }
     else if (descValue == "moderate rain") {
         img.innerHTML = `<img src="./Rainy.png" alt = "Sorry Coulndt find the image" style = "width: 250px;"/>`
