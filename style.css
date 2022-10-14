@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+@-ms-viewport {
+    width: device-width ;
+  }
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+hr{
+    height: 5px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+body {
+    background-color: #f1f6ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: black;
+}
+
+
+.dark-mode {
+    background-color: rgb(27, 27, 27);
+    color: white;
+    
+}
+
+.Website{
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.content.dark-mode-content {
+    background-color: #333;
+    box-shadow: 0 10px 10px 2px rgb(10, 10, 12);
+}
+
+.switch.dark-mode-switch {
+    background-color: #333;
+    color: whitesmoke;
+}
+
+.switch.dark-mode-switch:hover {
+    background-color: whitesmoke;
+    color: #333;
+}
+
+
+.content{
+    margin-top: 3rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 2px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 500px;
+    min-width: 350px;
+    height: 550px;
+    max-width: 100%;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    transition: 1s;
+}
+
+.title:hover {
+    cursor: pointer;
+}
+
+.LocationBox {
+    background-color: transparent;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+
+.degrees{
+    font-size: 45px;
+}
+
+.weatherImg {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    border-radius: 10px;
+    border: 5px solid #eaeef5;
+    width: 300px;
+    transition: 0.6s;
+}
+
+.switch {
+    margin-top: 1rem;
+    height: 60px;
+    width: 110px;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 20px;
+    transition: 0.6s;
+ 
+}
+
+.switch:hover {
+    background-color: #333;
+    color: whitesmoke;
+    transform: translateY(-10px);
+}
+
+
+.switch2{ 
+    height: 60px;
+    width: 40px;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 45px;
+    transition: 0.6s;
+}
+
+.switch2:hover {
+    background-color: black;
+    color: whitesmoke;
+    transform: translateX(-10px);
+}
+
+.content.animate {
+    transform: translate3d(10px);
+}
+
+
+
+    

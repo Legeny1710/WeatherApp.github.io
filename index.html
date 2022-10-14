@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <main>
+        <div class="Website" id="website">
+            <div class="contentBox">
+                <div class="titleBox">
+                    <h1 class="title" onclick="darkMode()">Weather</h1>
+                    <hr>
+                </div>
+                <div class="content" id="content">
+                    <div class="weatherBox">
+                        <div class="LocationBox">
+                            <h2 id="location" class="location">Location</h2>
+                        </div>
+                        <div class="timeBox">
+                            <h2 id="time"></h2>
+                        </div>
+                        <div class="degrees">
+                            <h2 id="degrees">-</h2>
+                        </div>
+                        <div class="weatherImg">
+                            <div class="img" id="img">
+                                
+                            </div>
+                        </div>
+                        <div class="descBox">
+                            <h2 id="desc"></h2>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="switchBtnBox">
+                <button class="switch" id="switch" onclick="switchLocation()">Next Location</button> 
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
